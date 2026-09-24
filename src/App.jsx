@@ -1,11 +1,12 @@
 import Header from "./components/header/header"
+import Main from "./components/main/main"
 
 function app(){
   return(
     <>
     <Header/>
-    {/* <main></main>
-    <footer></footer>*/}
+    <Main/>
+    <footer></footer>
     </>
   )
 }
