@@ -8,12 +8,12 @@ function Main(){
                 <p>Layouts responsivos, rápidos e acessiveis para seu negocio crescer na web</p>
                 <div className="hero-buttons">
                     <a href="#orçamento" className='btn-primary'>Peça um orçamento</a>
-                    <a href="#orçamento" className='btn-secundary'>Ver portifólio</a>
+                    <a href="#portifolio" className='btn-secundary'>Ver portifólio</a>
                 </div>
             </section>
 
-            <section className='servicos'>
-
+            <section className='servico'>
+            
             </section>
         </main>
     )
