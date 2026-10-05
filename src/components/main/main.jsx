@@ -1,4 +1,5 @@
 import './Main.css'
+import Servico_card from '../Servico-card/Servico-card'
 
 function Main(){
     return(
@@ -15,25 +16,24 @@ function Main(){
             <section className='servico'>
             <h2>Nossos serviços</h2>
 
-            <div className='servico-grid'>
-                <div className='servico-card'>
-                    <span>⭐</span>
-                    <h3>Desing de interface</h3>
-                    <p>telas claras,pensadas para o usuario</p>
-                </div>
+            <div className="servicos-grid">
+                <Servico_card 
+                titulo="desing de interface"
+                icone="🌹" 
+                descricao="telas claras,pensadas para o usuario"/>
 
-                <div className='servico-card'>
-                    <span>❤️</span>
-                    <h3>Responsividade</h3>
-                    <p>mesmo site em qualquer tela</p>
-                </div>
+                <Servico_card 
+                titulo="Responsividade"
+                icone="⭐" 
+                descricao="mesmo site em qualquer tela"/>
 
-                <div className='servico-card'>
-                    <span>🌙</span>
-                    <h3>Performance</h3>
-                    <p>paginas leves que carregam rápido</p>
-                </div>
+                <Servico_card 
+                titulo="Performance"
+                icone="🌙" 
+                descricao="paginas leves que carregam rápido"/>
+
             </div>
+            
             </section>
         </main>
     )
