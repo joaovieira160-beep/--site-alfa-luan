@@ -4,9 +4,10 @@ import Servico_card from '../Servico-card/Servico-card'
 const servicos = [
     {id: 1,icone:"⭐", titulo:"desing de interface", descricao:"telas claras,pensadas para o usuario"},
     {id: 2,icone:"🌙", titulo:"Responsividade", descricao:"mesmo site em qualquer tela"},
-    {id: 3,icone:"🚗", titulo:"Performance", descricao:"paginas leves que carregam rápido"},
+    {id: 3,icone:"🎊", titulo:"Performance", descricao:"paginas leves que carregam rápido"},
    
 ]
+
 
 function Main(){
     return(
@@ -28,6 +29,7 @@ function Main(){
                 servicos.map((servico)=> (
                     <Servico_card key={servico.id}
                     icone={servico.icone}
+                    titulo={servico.titulo}
                     descricao={servico.descricao}/>
                 ))
                }
